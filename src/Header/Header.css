@@ -36,7 +36,7 @@
 }
 .menu__link {
 }
-.btns-list {
+.header__btns-list {
     display: flex;
     align-items: center;
     gap: 2em;
