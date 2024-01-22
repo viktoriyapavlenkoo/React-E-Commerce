@@ -48,11 +48,11 @@ button {
 
     /* font-size */
 
-    --main-text: 1rem;
-    --small-text: 0.8rem;
-    --middle-text: 1.2rem;
-    --section-title: 1.8rem;
-    --hero-title: 2.2rem;
+    --main-text: 1rem; /* 20px */
+    --small-text: 0.8rem; /* 16px */
+    --middle-text: 1.2rem; /* 24px */
+    --section-title: 1.7rem; /* 34px */
+    --hero-title: 2.2rem; /* 44px */
 }
 
 /* main styles */
@@ -81,4 +81,23 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+/* media */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px)  {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+@media screen and (max-width: 480px) {
+
 }
