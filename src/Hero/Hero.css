@@ -2,7 +2,7 @@
     position: relative;
     background: url(../../public/images/hero-img.jpg) center / cover  no-repeat;
     height: calc(100vh - var(--header-heigth));
-    width: 100vw;
+    width: 100%;
 }
 .container {
 }
