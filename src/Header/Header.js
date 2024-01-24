@@ -6,8 +6,6 @@ import React from 'react';
 
 
 function Header() {
-  // let menu = React.createRef();
-  // console.log(menu)
   return (
   <header className='header'> 
     <div className="container header__container">
