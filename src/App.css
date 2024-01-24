@@ -1,0 +1,103 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+  
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+button {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* variables */
+
+:root {
+
+    /* color */
+    /* background-color */
+
+    --first-background-color: #ffffff;
+    --second-background-color: #faf3ea;
+    --third-background-color: #f4f5f7;
+
+    /* text-color */
+
+    --dark-color-text: #000000;
+    --light-color-text: #ffffff;
+    --grey-color-text: #898989;
+
+    /* accent-color */
+
+    --accent-color: #b88e2f;
+
+    /* font-size */
+
+    --main-text: 1rem; /* 20px */
+    --small-text: 0.8rem; /* 16px */
+    --middle-text: 1.2rem; /* 24px */
+    --section-title: 1.7rem; /* 34px */
+    --hero-title: 2.2rem; /* 44px */
+}
+
+/* main styles */
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: var(--first-background-color);
+    color: var(--dark-color-text);
+    line-height: 1.2;
+}
+
+.App {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1236px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* media */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px)  {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+@media screen and (max-width: 480px) {
+
+}

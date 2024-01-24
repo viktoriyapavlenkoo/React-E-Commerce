@@ -1,17 +1,24 @@
-import { Link } from 'react-router-dom';
 import './Header.css';
+import Menu from '../Menu/Menu';
+import ButtonsList from '../ButtonsList/ButtonsList';
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
+import React from 'react';
+
 
 function Header() {
+  // let menu = React.createRef();
+  // console.log(menu)
   return (
-   <> 
-    <h1>Header</h1>
-    <ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/shop">Shop</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-    </ul>
-   </>
+  <header className='header'> 
+    <div className="container header__container">
+     <nav className='nav'>
+      <a href="/" className='logo'><img src="../images/header/logo.svg" alt="" />Furniro</a>
+      <Menu props={'header__menu'}/>
+     </nav>
+     <ButtonsList props={'header__btns-list'}/>
+     <BurgerMenu/>
+    </div>
+  </header>
   );
 }
 
