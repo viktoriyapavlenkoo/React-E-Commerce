@@ -51,8 +51,8 @@ button {
     --main-text: 1rem; /* 20px */
     --small-text: 0.8rem; /* 16px */
     --middle-text: 1.2rem; /* 24px */
-    --section-title: 1.7rem; /* 34px */
-    --hero-title: 2.5rem; /* 50px */
+    --section-title: 1.5rem; /* 30px */
+    --hero-title: 2rem; /* 40px */
 
     /* sizes */
     --header-heigth: 100px;
@@ -61,8 +61,8 @@ button {
 /* main styles */
 
 html {
-    font-size: 20px;
-    line-height: 1.3;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 body {
