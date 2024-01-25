@@ -4,7 +4,7 @@
 }
 .header__container {
     display: flex;
-    height: 100px;
+    height: var(--header-heigth);
     justify-content: space-between;
     align-items: center;
     gap: 2em;
@@ -48,12 +48,13 @@
     align-items: center;
     gap: 2em;
 }
-.btns-list .btn {
+.btns-list__btn{
     display: flex;
     align-items: center;
     height: 28px;
 }
 .header__btns-list {
+    margin-left: 2em;
    
 }
 .btns-list__item {
@@ -84,6 +85,9 @@
     
 }
 
+@media screen and (max-width: 650px) {
+    
+}
 
 @media screen and (max-width: 480px) {
 

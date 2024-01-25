@@ -51,14 +51,18 @@ button {
     --main-text: 1rem; /* 20px */
     --small-text: 0.8rem; /* 16px */
     --middle-text: 1.2rem; /* 24px */
-    --section-title: 1.7rem; /* 34px */
-    --hero-title: 2.2rem; /* 44px */
+    --section-title: 1.5rem; /* 30px */
+    --hero-title: 2rem; /* 40px */
+
+    /* sizes */
+    --header-heigth: 100px;
 }
 
 /* main styles */
 
 html {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 body {
@@ -66,7 +70,7 @@ body {
     font-weight: 500;
     background-color: var(--first-background-color);
     color: var(--dark-color-text);
-    line-height: 1.2;
+    
 }
 
 .App {
@@ -83,6 +87,12 @@ body {
     padding: 0 10px;
 }
 
+.btn {
+    color: var(--light-color-text);
+    background-color: var(--accent-color);
+    font-size: var(--small-text);
+}
+
 /* media */
 
 @media screen and (max-width: 1200px) {
@@ -97,6 +107,9 @@ body {
     
 }
 
+@media screen and (max-width: 650px) {
+    
+}
 
 @media screen and (max-width: 480px) {
 
