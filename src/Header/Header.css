@@ -1,4 +1,8 @@
 .header {    
+    position: fixed;
+    background-color: var(--first-background-color);
+    width: 100%;
+    z-index: 8;
 }
 .container {
 }
@@ -17,13 +21,13 @@
     justify-content: space-between;
     align-items: center;
 }
-.logo {
+.header__logo {
     display: flex;
     align-items: center;
     margin-right: 1em;
     gap: 0.25em;
     font-size: var(--section-title);
-    font-weight: 700;
+    
     line-height: 40px;
 }
 .logo img {
