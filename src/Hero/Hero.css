@@ -1,5 +1,4 @@
 .hero {
-    position: relative;
     background: url(../../public/images/hero-img.jpg) center / cover  no-repeat;
     height: calc(100vh - var(--header-heigth));
     width: 100%;
@@ -13,7 +12,7 @@
     position: absolute;
     z-index: 0;
     top: 5em;
-    right: 10px;
+    right: 20px;
     width: 50%;
     background-color: var(--second-background-color);
     border-radius: 10px;
