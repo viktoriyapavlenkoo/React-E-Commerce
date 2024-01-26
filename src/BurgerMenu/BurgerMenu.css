@@ -57,7 +57,10 @@
     justify-content: space-between;
     gap: 0.5em;
 }
-
+.burger-menu__btns-list img {
+    height: 30px;
+    width: 30px;
+}
 .open .burger-menu__icon span{
     display: none;
 
