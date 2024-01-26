@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "50+ Beautiful rooms inspiration",
+            "discription": "Our designer already made a lot of beautiful prototipe of rooms that inspire you",
+            "image": "../images/offer/offer-img-1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "20+ Beautiful rooms inspiration",
+            "discription": "Our designer already made a lot of beautiful prototipe of rooms that inspire you",
+            "image": "../images/offer/offer-img-2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "30+ Beautiful rooms inspiration",
+            "discription": "Our designer already made a lot of beautiful prototipe of rooms that inspire you",
+            "image": "../images/offer/offer-img-1.jpg"
+        },
+        {
+            "id": 4,
+            "name": "10+ Beautiful rooms inspiration",
+            "discription": "Our designer already made a lot of beautiful prototipe of rooms that inspire you",
+            "image": "../images/offer/offer-img-2.jpg"
+        }        
+    ],
+    "count": 4,
+    "isValid": true,
+    "status": "OK"
+}
