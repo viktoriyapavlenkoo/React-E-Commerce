@@ -1,6 +1,4 @@
-.offer {
-    margin: 70px 0;
-}
+
 .container {
     
 }
@@ -10,7 +8,7 @@
 .offer__list {
     background-color: var(--second-background-color);
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
     overflow: hidden;
     padding: 2em 0 2em 5em;
 }
@@ -29,22 +27,18 @@
 }
 
 
-.offer__item:not(:first-child) .item__text-block{
+.offer__item:not(:first-child) .offer-item__text-block{
     display: none;
 }
 
-.item__text-block {
+.offer-item__text-block {
     width: 400px;
 }
-.item__title {
-    font-size: var(--section-title);
+.offer-item__title {
     margin-bottom: 10px;
 }
-.item__text {
-    font-size: var(--small-text);
-    color: var(--grey-color-text);
-}
-.item__img-block {
+
+.offer-item__img-block {
 }
 
 /* media */

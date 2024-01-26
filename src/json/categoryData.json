@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Dining",
+            "image": "../images/category/category-img-1.png"
+        },
+        {
+            "id": 2,
+            "name": "Living",
+            "image": "../images/category/category-img-2.png"
+        },
+        {
+            "id": 3,
+            "name": "Bedroom",
+            "image": "../images/category/category-img-3.png"
+        }
+    ],
+    "count": 3,
+    "isValid": true,
+    "status": "OK"
+}
