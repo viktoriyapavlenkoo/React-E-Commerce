@@ -17,13 +17,13 @@
 .category__text {
 }
 .category__list {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5em;
     margin-top: 2.5em;
 }
 .category-item__img-block {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 
 }
 .category-item__img-block img{
