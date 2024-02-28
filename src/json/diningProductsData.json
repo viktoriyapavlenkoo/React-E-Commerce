@@ -1,0 +1,79 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 2,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 3,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 4,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 5,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 6,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 7,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 8,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        }
+    ],
+    "count": 8,
+    "isValid": true,
+    "status": "OK"
+}

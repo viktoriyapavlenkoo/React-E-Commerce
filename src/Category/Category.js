@@ -7,7 +7,7 @@ function Category() {
   const categoryData = json.data;
   const category = React.createRef();
   useEffect(() => {
-    if (categoryData.length == 0) {
+    if (categoryData.length === 0) {
       category.current.style.display = 'none'
     }
   }, [])

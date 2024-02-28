@@ -1,3 +1,37 @@
+.products-categories {
+}
+.container {
+}
+.products-categories__container {
+}
+.products-categories__list {
+    
+}
+.products-categories__item {
+    margin: 2.5em 0;
+}
+.section-title {
+}
+.products-categories__title {
+    
+}
+.container-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.products-categories__btn {
+    display: inline-block;
+    padding: 12px 70px;
+    font-weight: 600;
+    
+    
+    /* margin-left: 200px; */
+    /* transform: translateX(-50%); */
+    
+
+}
+
 /* media */
 
 @media screen and (max-width: 1200px) {
