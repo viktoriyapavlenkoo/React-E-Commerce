@@ -1,0 +1,223 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 2,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 3,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 4,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 5,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 6,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 7,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 8,
+            "category": "Dining",
+            "name": "Syltherine",
+            "discription": "Stylish cafe chair",
+            "price": "1500",
+            "currency": "UAH",
+            "image": "../images/products/product-img-1.jpg"
+        },
+        {
+            "id": 9,
+            "category": "Living",
+            "name": "Lolito",
+            "discription": "Luxury big sofa",
+            "price": "2000",
+            "currency": "UAH",
+            "image": "../images/products/product-img-2.jpg"
+        },
+        {
+            "id": 10,
+            "category": "Living",
+            "name": "Lolito",
+            "discription": "Luxury big sofa",
+            "price": "2000",
+            "currency": "UAH",
+            "image": "../images/products/product-img-2.jpg"
+        },
+        {
+            "id": 11,
+            "category": "Living",
+            "name": "Lolito",
+            "discription": "Luxury big sofa",
+            "price": "2000",
+            "currency": "UAH",
+            "image": "../images/products/product-img-2.jpg"
+        },
+        {
+            "id": 12,
+            "category": "Living",
+            "name": "Lolito",
+            "discription": "Luxury big sofa",
+            "price": "2000",
+            "currency": "UAH",
+            "image": "../images/products/product-img-2.jpg"
+        },
+        {
+            "id": 13,
+            "category": "Living",
+            "name": "Lolito",
+            "discription": "Luxury big sofa",
+            "price": "2000",
+            "currency": "UAH",
+            "image": "../images/products/product-img-2.jpg"
+        },
+        {
+            "id": 14,
+            "category": "Living",
+            "name": "Lolito",
+            "discription": "Luxury big sofa",
+            "price": "2000",
+            "currency": "UAH",
+            "image": "../images/products/product-img-2.jpg"
+        },
+        {
+            "id": 15,
+            "category": "Living",
+            "name": "Lolito",
+            "discription": "Luxury big sofa",
+            "price": "2000",
+            "currency": "UAH",
+            "image": "../images/products/product-img-2.jpg"
+        },
+        {
+            "id": 16,
+            "category": "Living",
+            "name": "Lolito",
+            "discription": "Luxury big sofa",
+            "price": "2000",
+            "currency": "UAH",
+            "image": "../images/products/product-img-2.jpg"
+        },
+        {
+            "id": 17,
+            "category": "Bedroom",
+            "name": "Respira",
+            "discription": "Outdoor bar table and stool",
+            "price": "1200",
+            "currency": "UAH",
+            "image": "../images/products/product-img-3.jpg"
+        },
+        {
+            "id": 18,
+            "category": "Bedroom",
+            "name": "Respira",
+            "discription": "Outdoor bar table and stool",
+            "price": "1200",
+            "currency": "UAH",
+            "image": "../images/products/product-img-3.jpg"
+        },
+        {
+            "id": 19,
+            "category": "Bedroom",
+            "name": "Respira",
+            "discription": "Outdoor bar table and stool",
+            "price": "1200",
+            "currency": "UAH",
+            "image": "../images/products/product-img-3.jpg"
+        },
+        {
+            "id": 20,
+            "category": "Bedroom",
+            "name": "Respira",
+            "discription": "Outdoor bar table and stool",
+            "price": "1200",
+            "currency": "UAH",
+            "image": "../images/products/product-img-3.jpg"
+        },
+        {
+            "id": 21,
+            "category": "Bedroom",
+            "name": "Respira",
+            "discription": "Outdoor bar table and stool",
+            "price": "1200",
+            "currency": "UAH",
+            "image": "../images/products/product-img-3.jpg"
+        },
+        {
+            "id": 22,
+            "category": "Bedroom",
+            "name": "Respira",
+            "discription": "Outdoor bar table and stool",
+            "price": "1200",
+            "currency": "UAH",
+            "image": "../images/products/product-img-3.jpg"
+        },
+        {
+            "id": 23,
+            "category": "Bedroom",
+            "name": "Respira",
+            "discription": "Outdoor bar table and stool",
+            "price": "1200",
+            "currency": "UAH",
+            "image": "../images/products/product-img-3.jpg"
+        },
+        {
+            "id": 24,
+            "category": "Bedroom",
+            "name": "Respira",
+            "discription": "Outdoor bar table and stool",
+            "price": "1200",
+            "currency": "UAH",
+            "image": "../images/products/product-img-3.jpg"
+        } 
+    ],
+    "count": 24,
+    "isValid": true,
+    "status": "OK"
+}
