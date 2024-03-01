@@ -1,16 +1,11 @@
-import { useEffect } from 'react';
-import React from 'react';
 import './Offer.css';
 import json from '../json/offerData.json'
 
 function Offer() {
   const offerData = json.data;
-  const offer = React.createRef();
-  useEffect(() => {
-    if (offerData.length == 0) {
-      offer.current.style.display = 'none'
-    }
-  }, [])
+  if(offerData.length === 0) {
+    return null;
+  }
   // console.log(offerData)
   // useEffect(()=> {
   //   fetch('./json/offerData.json',  {
@@ -23,7 +18,7 @@ function Offer() {
   //   // console.log('Hello')
   // }, [])
   return (
-   <section className='section offer' ref={offer}> 
+   <section className='section offer'> 
     <div className="container offer__container">
       <ul className="offer__list">
         {offerData.map((item) => 

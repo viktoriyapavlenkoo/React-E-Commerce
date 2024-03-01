@@ -46,19 +46,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    /* .product__list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    } */
-    
-}
-
-@media screen and (max-width: 650px) {
     .product__list {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     
+}
+
+@media screen and (max-width: 650px) {
 }
 
 @media screen and (max-width: 480px) {

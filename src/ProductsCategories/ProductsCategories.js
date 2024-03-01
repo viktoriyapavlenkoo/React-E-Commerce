@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-import React from 'react';
 import './ProductsCategories.css';
 import categoryJson from '../json/categoryData.json';
 import productsJson from '../json/productsData.json';
@@ -8,14 +6,11 @@ import ProductCategory from './ProductCategory/ProductCategory';
 function ProductsCategories() {
   const categoryData = categoryJson.data;
   const productsData = productsJson.data;
-  const products = React.createRef();
-  useEffect(() => {
-    if (categoryData.length === 0 || productsData.length === 0) {
-      products.current.style.display = 'none'
-    }
-  }, [])
+  if(productsData.length === 0) {
+    return null;
+  }
   return (
-   <section className='section products-categories' ref={products}> 
+   <section className='section products-categories'> 
     <div className="container products-categories__container">
       <ul className="products-categories__list">
         {categoryData.map((item) => 
