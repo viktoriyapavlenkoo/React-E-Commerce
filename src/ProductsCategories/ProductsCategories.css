@@ -3,6 +3,7 @@
 .container {
 }
 .products-categories__container {
+    padding: 0;
 }
 .products-categories__list {
     
