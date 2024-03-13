@@ -16,6 +16,8 @@ function ProductsCategories() {
         {categoryData.map((item) => 
           <li key={item.id} className='products-categories__item'>
             <h2 className="section-title products-categories__title">{item.name} Products</h2>
+
+
             <ProductCategory category={item.name} data={productsData}/>
             <div className="container-btn">
               <a href='#' className='products-categories__btn btn'>Show More</a>
