@@ -1,9 +1,12 @@
 import './Shop.css';
+import PageHero from '../PageHero/PageHero';
+import ShopProducts from '../ShopProducts/ShopProducts'
 
 function Shop() {
   return (
    <div className='shop page-content'> 
-    <h1>Shop</h1>
+    <PageHero/>
+    <ShopProducts/>
    </div>
   );
 }

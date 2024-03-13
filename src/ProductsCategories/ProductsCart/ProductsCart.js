@@ -3,7 +3,7 @@ import './ProductsCart.css'
 function ProductsCart(props){
     const products = props.products;
     return (
-      <> 
+      <div className='container products-cart__container'> 
        <ul className="product__list">
          {products.map((item) => {
            return <li key={item.id} className='product__item'>
@@ -32,7 +32,7 @@ function ProductsCart(props){
          }
          )}
        </ul>
-      </>
+      </div>
      );
 }
 
