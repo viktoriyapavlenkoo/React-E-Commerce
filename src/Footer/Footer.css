@@ -129,10 +129,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    
-}
-
-@media screen and (max-width: 650px) {
     .footer {
         font-size: var(--main-text);
         border-top: 1px solid var(--third-background-color);
@@ -178,6 +174,10 @@
     .help__menu {
         gap: 1em;
     }
+}
+
+@media screen and (max-width: 650px) {
+    
 }
 
 @media screen and (max-width: 480px) {

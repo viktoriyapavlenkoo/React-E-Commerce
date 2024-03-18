@@ -8,11 +8,7 @@ function ButtonsList(className) {
           <img src="../images/header/user-account-icon.svg" alt="User account icon" />
         </button>
       </li>
-      <li className='btns-list__item'>
-        <button className='btns-list__btn'>
-          <img src="../images/header/search-icon.svg" alt="Search icon" />
-        </button>
-      </li>
+  
       <li className='btns-list__item'>
         <button className='btns-list__btn'>
           <img src="../images/header/favorites-icon.svg" alt="Favorites icon" />
