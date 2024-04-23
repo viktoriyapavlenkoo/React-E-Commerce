@@ -116,6 +116,9 @@ body {
 .logo {
     font-weight: 700;
 }
+.title {
+    font-size: var(--hero-title);
+}
 .text {
     font-size: var(--small-text);
     color: var(--grey-color-text);

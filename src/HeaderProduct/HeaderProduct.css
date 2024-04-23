@@ -4,6 +4,7 @@
     margin: 0;
     background-color: var(--second-background-color);
     height: var(--header-heigth);
+    font-weight: 400;
 }
 .container {
 }

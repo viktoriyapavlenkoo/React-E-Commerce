@@ -15,7 +15,7 @@ function HeaderProduct(props) {
             <Link to="/shop" className="text prev-page__link header-product__link">Shop</Link>
           </li>
         </ul>
-        <p className="text current-page header-product__text">Asgaard sofa</p>
+        <p className="text current-page header-product__text">{name}</p>
       </div>
     </section>
   );

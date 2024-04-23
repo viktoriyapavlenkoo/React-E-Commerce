@@ -1,4 +1,10 @@
+.info-product__images-item {
+    cursor: pointer;
+}
 
+.info-product__main-img img {
+    width: 450px;
+}
 /* media */
 
 @media screen and (max-width: 1200px) {
