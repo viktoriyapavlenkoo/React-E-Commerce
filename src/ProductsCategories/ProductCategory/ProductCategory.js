@@ -1,5 +1,5 @@
 import './ProductCategory.css';
-import ProductsCart from '../ProductsCart/ProductsCart';
+import ProductsCart from '../../ProductsCart/ProductsCart';
 
 function ProductCategory(props) {
   const category = props.category;

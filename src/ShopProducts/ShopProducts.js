@@ -1,7 +1,7 @@
 import './ShopProducts.css';
 import ProductsNav from '../ProductsNav/ProductsNav';
 import ProductsBtnsList from '../ProductsBtnsList/ProductsBtnsList';
-import ProductsCart from '../ProductsCategories/ProductsCart/ProductsCart';
+import ProductsCart from '../ProductsCart/ProductsCart';
 import productsJson from '../json/productsData.json';
 
 function ShopProducts() {

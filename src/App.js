@@ -10,8 +10,10 @@ import Footer from './Footer/Footer';
 import PaymentOptions from './PaymentOptions/PaymentOptions';
 import Returns from './Returns/Returns';
 import PrivacyPolicies from './PrivacyPolicies/PrivacyPolicies';
+import categoryJson from './json/categoryData.json';
 
 function App() {
+  
   return (
    <div className='App'>
     <div className="main">
@@ -19,6 +21,7 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Home/>}/>
             <Route path='/shop' element={<Shop/>}/>
+            {/* <Route exact path='/shop/:category' element={<Shop category={category}/>}/> */}
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/payment-options' element={<PaymentOptions/>}/>
