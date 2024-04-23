@@ -1,6 +1,6 @@
 import './InfoProduct.css';
 
-function InfoProduct() {
+function InfoProduct(props) {
   return (
     <section className="section info-product">
       <div className="container info-product__container">

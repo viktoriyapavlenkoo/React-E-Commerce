@@ -9,11 +9,12 @@ import productsJson from '../json/productsData.json';
 
 function Product() {
   const productsData = productsJson.data;
+  const product = productsData[0];
   return (
     <div className="product page-content">
-      <HeaderProduct />
-      <InfoProduct />
-      <FullInfo />
+      <HeaderProduct name={product.name} />
+      <InfoProduct product={product} />
+      <FullInfo discription={product.fullDiscription} />
     </div>
   );
 }

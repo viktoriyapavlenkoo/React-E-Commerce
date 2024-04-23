@@ -20,8 +20,8 @@
 .product__title {
 }
 .product__text {
-    font-size: var(--small-text);
-    color: var(--grey-color-text);
+    /* font-size: var(--small-text);
+    color: var(--grey-color-text); */
     margin: 0.2em 0;
 }
 .product__price {

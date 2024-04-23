@@ -18,7 +18,7 @@ function ProductsCart(props) {
                   {item.name}
                 </Link>
                 {/* <h3 className="item-title product__title">{item.name}</h3> */}
-                <p className="product__text">{item.shortDiscription}</p>
+                <p className="text product__text">{item.shortDiscription}</p>
                 <p className="product__price">
                   {item.price} {item.currency}
                 </p>
