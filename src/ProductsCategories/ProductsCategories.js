@@ -2,6 +2,7 @@ import './ProductsCategories.css';
 import categoryJson from '../json/categoryData.json';
 import productsJson from '../json/productsData.json';
 import ProductCategory from './ProductCategory/ProductCategory';
+import { Link } from 'react-router-dom';
 
 function ProductsCategories() {
   const categoryData = categoryJson.data;
@@ -20,7 +21,7 @@ function ProductsCategories() {
 
             <ProductCategory category={item.name} data={productsData}/>
             <div className="container-btn">
-              <a href='#' className='products-categories__btn btn'>Show More</a>
+              <Link to='/shop'  className='products-categories__btn btn'>Show More</Link>
             </div>
           </li>    
         )}
