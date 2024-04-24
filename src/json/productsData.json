@@ -24,7 +24,7 @@
         { "size": "XS", "inStock": true }
       ],
       "colors": [
-        { "color": "Purple", "hex": "#601F58", "inStock": true },
+        { "color": "Purple", "hex": "#816dfa", "inStock": true },
         { "color": "Black", "hex": "#000000", "inStock": false },
         { "color": "Light Brown", "hex": "#ce7e00", "inStock": true }
       ]

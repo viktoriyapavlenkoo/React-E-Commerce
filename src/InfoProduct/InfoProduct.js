@@ -3,8 +3,7 @@ import './InfoProduct.css';
 
 function InfoProduct(props) {
   const product = props.product;
-  //console.log(product)
-
+  
   // State
   const [mainImg, setMainImg] = useState(product.images[0]);
   const [count, setCount] = useState(1);
@@ -23,10 +22,11 @@ function InfoProduct(props) {
                     setMainImg(image);
                   }}
                 >
-                  <img src={image} alt="Product image" width={76} />
+                  <img src={image} alt="Product image"  />
                 </li>
               );
             })}
+
           </ul>
           <div className="info-product__main-img">
             <img src={mainImg} alt="Main product image" />
@@ -45,7 +45,7 @@ function InfoProduct(props) {
               {product.sizes.map((size, index) => {
                 return (
                   <li className="size-block__item" key={index}>
-                    <button type="button" className="btn size-block__btn">
+                    <button type="button" className="size-block__btn">
                       {size.size}
                     </button>
                   </li>
@@ -54,7 +54,7 @@ function InfoProduct(props) {
             </ul>
           </div>
           <div className="info-product__color-block">
-            <p className="size-block__title text">Color</p>
+            <p className="color-block__title text">Color</p>
             <ul className="info-product__color-list">
               {product.colors.map((color, index) => {
                 const hex = color.hex;
@@ -62,11 +62,9 @@ function InfoProduct(props) {
                   <li className="color-block__item" key={index}>
                     <button
                       type="button"
-                      className="btn color-block__btn"
+                      className="color-block__btn"
                       style={{
-                        backgroundColor: hex,
-                        width: '30px',
-                        height: '30px',
+                        backgroundColor: hex
                       }}
                     ></button>
                   </li>
