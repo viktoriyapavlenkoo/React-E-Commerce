@@ -3,7 +3,7 @@ import './InfoProduct.css';
 
 function InfoProduct(props) {
   const product = props.product;
-  
+
   // State
   const [mainImg, setMainImg] = useState(product.images[0]);
   const [count, setCount] = useState(1);
@@ -22,11 +22,10 @@ function InfoProduct(props) {
                     setMainImg(image);
                   }}
                 >
-                  <img src={image} alt="Product image"  />
+                  <img src={image} alt="Product image" />
                 </li>
               );
             })}
-
           </ul>
           <div className="info-product__main-img">
             <img src={mainImg} alt="Main product image" />
@@ -38,7 +37,7 @@ function InfoProduct(props) {
             {product.price} {product.currency}
           </p>
           <p className="text info-product__category">{product.category}</p>
-          <p className="text info-product__text">{product.discription}</p>
+          <p className="text info-product__text">{product.description}</p>
           <div className="info-product__size-block">
             <p className="size-block__title text">Size</p>
             <ul className="info-product__size-list">
@@ -64,7 +63,7 @@ function InfoProduct(props) {
                       type="button"
                       className="color-block__btn"
                       style={{
-                        backgroundColor: hex
+                        backgroundColor: hex,
                       }}
                     ></button>
                   </li>

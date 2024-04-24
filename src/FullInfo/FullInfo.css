@@ -1,4 +1,25 @@
-
+.section {
+}
+.full-info {
+    border-top: 1px solid var(--third-background-color);
+}
+.container {
+}
+.full-info__container {
+    max-width: 1026px;
+}
+.full-info__title {
+    text-align: center;
+    font-weight: 500;
+    margin: 2.5rem 0 1.5rem; 
+}
+.item-title {
+}
+.text {
+}
+.full-info__text {
+    margin-bottom: 1.5rem;
+}
 /* media */
 
 @media screen and (max-width: 1200px) {

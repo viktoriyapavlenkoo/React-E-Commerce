@@ -1,79 +1,79 @@
 {
-    "data": [
-        {
-            "id": 1,
-            "category": "Living",
-            "name": "Lolito",
-            "discription": "Luxury big sofa",
-            "price": "2000",
-            "currency": "UAH",
-            "image": "../images/products/product-img-2.jpg"
-        },
-        {
-            "id": 2,
-            "category": "Living",
-            "name": "Lolito",
-            "discription": "Luxury big sofa",
-            "price": "2000",
-            "currency": "UAH",
-            "image": "../images/products/product-img-2.jpg"
-        },
-        {
-            "id": 3,
-            "category": "Living",
-            "name": "Lolito",
-            "discription": "Luxury big sofa",
-            "price": "2000",
-            "currency": "UAH",
-            "image": "../images/products/product-img-2.jpg"
-        },
-        {
-            "id": 4,
-            "category": "Living",
-            "name": "Lolito",
-            "discription": "Luxury big sofa",
-            "price": "2000",
-            "currency": "UAH",
-            "image": "../images/products/product-img-2.jpg"
-        },
-        {
-            "id": 5,
-            "category": "Living",
-            "name": "Lolito",
-            "discription": "Luxury big sofa",
-            "price": "2000",
-            "currency": "UAH",
-            "image": "../images/products/product-img-2.jpg"
-        },
-        {
-            "id": 6,
-            "category": "Living",
-            "name": "Lolito",
-            "discription": "Luxury big sofa",
-            "price": "2000",
-            "currency": "UAH",
-            "image": "../images/products/product-img-2.jpg"
-        },
-        {
-            "id": 7,
-            "category": "Living",
-            "name": "Lolito",
-            "discription": "Luxury big sofa",
-            "price": "2000",
-            "currency": "UAH",
-            "image": "../images/products/product-img-2.jpg"
-        },
-        {
-            "id": 8,
-            "category": "Living",
-            "name": "Lolito",
-            "discription": "Luxury big sofa",
-            "price": "2000",
-            "currency": "UAH",
-            "image": "../images/products/product-img-2.jpg"
-        }
-    ],
-    "count": 8,
-    "isValid": true,
-    "status": "OK"
+  "data": [
+    {
+      "id": 1,
+      "category": "Living",
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "2000",
+      "currency": "UAH",
+      "image": "../images/products/product-img-2.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Living",
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "2000",
+      "currency": "UAH",
+      "image": "../images/products/product-img-2.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Living",
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "2000",
+      "currency": "UAH",
+      "image": "../images/products/product-img-2.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Living",
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "2000",
+      "currency": "UAH",
+      "image": "../images/products/product-img-2.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Living",
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "2000",
+      "currency": "UAH",
+      "image": "../images/products/product-img-2.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Living",
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "2000",
+      "currency": "UAH",
+      "image": "../images/products/product-img-2.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Living",
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "2000",
+      "currency": "UAH",
+      "image": "../images/products/product-img-2.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Living",
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price": "2000",
+      "currency": "UAH",
+      "image": "../images/products/product-img-2.jpg"
+    }
+  ],
+  "count": 8,
+  "isValid": true,
+  "status": "OK"
 }

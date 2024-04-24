@@ -1,79 +1,79 @@
 {
-    "data": [
-        {
-            "id": 1,
-            "category": "Bedroom",
-            "name": "Respira",
-            "discription": "Outdoor bar table and stool",
-            "price": "1200",
-            "currency": "UAH",
-            "image": "../images/products/product-img-3.jpg"
-        },
-        {
-            "id": 2,
-            "category": "Bedroom",
-            "name": "Respira",
-            "discription": "Outdoor bar table and stool",
-            "price": "1200",
-            "currency": "UAH",
-            "image": "../images/products/product-img-3.jpg"
-        },
-        {
-            "id": 3,
-            "category": "Bedroom",
-            "name": "Respira",
-            "discription": "Outdoor bar table and stool",
-            "price": "1200",
-            "currency": "UAH",
-            "image": "../images/products/product-img-3.jpg"
-        },
-        {
-            "id": 4,
-            "category": "Bedroom",
-            "name": "Respira",
-            "discription": "Outdoor bar table and stool",
-            "price": "1200",
-            "currency": "UAH",
-            "image": "../images/products/product-img-3.jpg"
-        },
-        {
-            "id": 5,
-            "category": "Bedroom",
-            "name": "Respira",
-            "discription": "Outdoor bar table and stool",
-            "price": "1200",
-            "currency": "UAH",
-            "image": "../images/products/product-img-3.jpg"
-        },
-        {
-            "id": 6,
-            "category": "Bedroom",
-            "name": "Respira",
-            "discription": "Outdoor bar table and stool",
-            "price": "1200",
-            "currency": "UAH",
-            "image": "../images/products/product-img-3.jpg"
-        },
-        {
-            "id": 7,
-            "category": "Bedroom",
-            "name": "Respira",
-            "discription": "Outdoor bar table and stool",
-            "price": "1200",
-            "currency": "UAH",
-            "image": "../images/products/product-img-3.jpg"
-        },
-        {
-            "id": 8,
-            "category": "Bedroom",
-            "name": "Respira",
-            "discription": "Outdoor bar table and stool",
-            "price": "1200",
-            "currency": "UAH",
-            "image": "../images/products/product-img-3.jpg"
-        }        
-    ],
-    "count": 8,
-    "isValid": true,
-    "status": "OK"
+  "data": [
+    {
+      "id": 1,
+      "category": "Bedroom",
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "1200",
+      "currency": "UAH",
+      "image": "../images/products/product-img-3.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Bedroom",
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "1200",
+      "currency": "UAH",
+      "image": "../images/products/product-img-3.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Bedroom",
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "1200",
+      "currency": "UAH",
+      "image": "../images/products/product-img-3.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Bedroom",
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "1200",
+      "currency": "UAH",
+      "image": "../images/products/product-img-3.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Bedroom",
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "1200",
+      "currency": "UAH",
+      "image": "../images/products/product-img-3.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Bedroom",
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "1200",
+      "currency": "UAH",
+      "image": "../images/products/product-img-3.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Bedroom",
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "1200",
+      "currency": "UAH",
+      "image": "../images/products/product-img-3.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Bedroom",
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price": "1200",
+      "currency": "UAH",
+      "image": "../images/products/product-img-3.jpg"
+    }
+  ],
+  "count": 8,
+  "isValid": true,
+  "status": "OK"
 }
