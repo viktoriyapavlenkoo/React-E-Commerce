@@ -52,10 +52,7 @@
     align-items: center;
     gap: 2em;
 }
-.header__btns-list .btns-list__btn {
-    display: flex;
-    align-items: center;
-}
+
 .header__btns-list img{
     height: 23px;
     width: 23px;

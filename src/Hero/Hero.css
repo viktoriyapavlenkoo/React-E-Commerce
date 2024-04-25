@@ -63,10 +63,10 @@
 }
 
 @media screen and (max-width: 650px) {
-    html {
+    /* html {
         font-size: 16px;
         line-height: 1.3;
-    }
+    } */
     .hero {
         background: var(--second-background-color);
         height: 100%;

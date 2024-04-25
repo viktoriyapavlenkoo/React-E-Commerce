@@ -11,23 +11,29 @@ function ProductsCategories() {
     return null;
   }
   return (
-   <section className='section products-categories'> 
-    <div className="container products-categories__container">
-      <ul className="products-categories__list">
-        {categoryData.map((item) => 
-          <li key={item.id} className='products-categories__item'>
-            <h2 className="section-title products-categories__title">{item.name} Products</h2>
+    <section className="section products-categories">
+      <div className="container products-categories__container">
+        <ul className="products-categories__list">
+          {categoryData.map((item) => (
+            <li key={item.id} className="products-categories__item">
+              <h2 className="section-title products-categories__title">
+                {item.name} Products
+              </h2>
 
-
-            <ProductCategory category={item.name} data={productsData}/>
-            <div className="container-btn">
-              <Link to='/shop'  className='products-categories__btn btn'>Show More</Link>
-            </div>
-          </li>    
-        )}
-      </ul>
-    </div>
-   </section>
+              <ProductCategory category={item.name} data={productsData} />
+              <div className="container-btn">
+                <Link
+                  to="/shop"
+                  className="products-categories__btn btn btn--light"
+                >
+                  Show More
+                </Link>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
   );
 }
 
