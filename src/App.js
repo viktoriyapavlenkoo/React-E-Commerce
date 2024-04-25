@@ -13,34 +13,37 @@ import PrivacyPolicies from './PrivacyPolicies/PrivacyPolicies';
 
 
 import Product from './Product/Product';
+import Cart from './Cart/Cart';
 //import categoryJson from './json/categoryData.json';
 
 function App() {
   
   return (
-   <div className='App'>
-    <div className="main">
-        <Header/>
-          <Routes>
-            <Route exact path='/' element={<Home/>}/>
-            <Route path='/shop' element={<Shop/>}/>
-            {/* <Route exact path='/shop/:category' element={<Shop category={category}/>}/> */}
-            <Route path='/about' element={<About/>}/>
-            <Route path='/contact' element={<Contact/>}/>
-            <Route path='/payment-options' element={<PaymentOptions/>}/>
-            <Route path='/returns' element={<Returns/>}/>
-            <Route path='/privacy-policies' element={<PrivacyPolicies/>}/>
-            <Route path='/*' element={<Error/>}/>
-           
-           
-            {/*product*/}
+    <div className="App">
+      <div className="main">
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          {/* <Route exact path='/shop/:category' element={<Shop category={category}/>}/> */}
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/payment-options" element={<PaymentOptions />} />
+          <Route path="/returns" element={<Returns />} />
+          <Route path="/privacy-policies" element={<PrivacyPolicies />} />
+          <Route path="/*" element={<Error />} />
 
-            <Route path='/product' element={<Product/>}/>
+          {/*product*/}
 
-          </Routes>
+          <Route path="/product" element={<Product />} />
+
+          {/*cart*/}
+
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+      </div>
+      <Footer />
     </div>
-    <Footer/>
-   </div>
   );
 }
 
