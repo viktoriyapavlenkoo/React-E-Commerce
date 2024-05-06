@@ -1,23 +1,21 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Header/Header';
-import Home from './Home/Home';
-import Shop from './Shop/Shop';
-import About from './About/About';
-import Contact from './Contact/Contact';
-import Error from './Error/Error';
-import Footer from './Footer/Footer';
-import PaymentOptions from './PaymentOptions/PaymentOptions';
-import Returns from './Returns/Returns';
-import PrivacyPolicies from './PrivacyPolicies/PrivacyPolicies';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./Header/Header";
+import Home from "./Home/Home";
+import Shop from "./Shop/Shop";
+import About from "./About/About";
+import Contact from "./Contact/Contact";
+import Error from "./Error/Error";
+import Footer from "./Footer/Footer";
+import PaymentOptions from "./PaymentOptions/PaymentOptions";
+import Returns from "./Returns/Returns";
+import PrivacyPolicies from "./PrivacyPolicies/PrivacyPolicies";
 
-
-import Product from './Product/Product';
-import Cart from './Cart/Cart';
+import Product from "./Product/Product";
+import Cart from "./Cart/Cart";
 //import categoryJson from './json/categoryData.json';
 
 function App() {
-  
   return (
     <div className="App">
       <div className="main">
@@ -37,7 +35,7 @@ function App() {
 
           <Route path="/product" element={<Product />} />
 
-          {/*cart*/}
+          {/*product*/}
 
           <Route path="/cart" element={<Cart />} />
         </Routes>

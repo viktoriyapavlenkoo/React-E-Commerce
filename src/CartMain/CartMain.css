@@ -1,4 +1,16 @@
+.cart__table {
+    width: 100%;
+    text-align: center;
+}
 
+.cart-table__thead {
+}
+.item-total {
+    text-align: left;
+}
+.column-title__item-product {
+    width: 25%;
+}
 
 /* media */
 

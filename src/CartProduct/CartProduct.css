@@ -1,5 +1,25 @@
 
+.item-product {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 
+.item-product__img-block img {
+    max-width: 105px;
+    width: 100%;
+}
+
+.item-quantity {
+   
+    
+    
+}
+
+.item-quantity__block {
+    display: flex;
+    justify-content: center;
+}
 /* media */
 
 @media screen and (max-width: 1200px) {

@@ -7,7 +7,7 @@ import Benefits from '../Benefits/Benefits';
 function Cart() {
   return (
     <div className="cart page-content">
-      <PageHero page="cart" />
+      <PageHero page="cart" /> 
       <CartMain />
       <Benefits />
     </div>
