@@ -10,49 +10,37 @@ function CartMain() {
   cart.push(productsData[1]);
   cart.push(productsData[18]);
   cart.push(productsData[14]);
-  console.log(cart)
+  console.log(cart);
   return (
     <section className="section cart-main">
       <div className="container cart-main__container">
-        <table className="cart__table cart-table table">
-          <thead className="cart-table__thead">
-            <tr className="cart-table__header">
-              <th className="cart-table__column-title column-title__item-product">
-                Product
-              </th>
-              <th className="cart-table__column-title">Price</th>
-              <th className="cart-table__column-title">Quantity</th>
-              <th className="cart-table__column-title">Subtotal</th>
-              <th className="cart-table__column-title">Delete</th>
-            </tr>
-          </thead>
-          <tbody className="cart-table__tbody">
+        <div className="cart-main__list-block">
+          <ul className="cart-main__list">
             {cart.map((product) => {
               console.log(product);
               return (
-                <tr key={product.id} className="cart-table__row">
+                <li key={product.id} className="cart-main__item-product">
                   <CartProduct product={product} cart={cart} />
-                </tr>
+                </li>
               );
             })}
-          </tbody>
-          <tfoot >
-            <tr className="cart-table__tfoot">
-              <th colSpan="2" className="cart-table__tfoot-item item-total">
-                Total
-              </th>
-              <td className="cart-table__tfoot-item item-total-quantity">10</td>
-              <td className="cart-table__tfoot-item item-total-subtotal">
-                20000 {cart[0].currency}
-              </td>
-              <td className="cart-table__tfoot-item item-checkout">
-                {/* <button type="button" className="item-checkout__btn">
-                  Check out
-                </button> */}
-              </td>
-            </tr>
-          </tfoot>
-        </table>
+          </ul>
+        </div>
+
+        <div className="cart-main__total-block">
+          <h3 className="total-block__title section-title">Cart Totals</h3>
+          <div className="total-block__total-quantity">
+            <h4 className="total-quantity__title">Quantity</h4>
+            <p className="total-quantity__text">10</p>
+          </div>
+          <div className="total-block__total">
+            <h4 className="total__title">Total</h4>
+            <p className="total__text">10000 {cart[0].currency} </p>
+          </div>
+          <button type="button" className="item-checkout__btn">
+            Check out
+          </button>
+        </div>
       </div>
     </section>
   );

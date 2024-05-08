@@ -8,48 +8,47 @@ function CartProduct(props) {
   const [count, setCount] = useState(1);
   return (
     <>
-      <td className="cart-table__row-item item-product">
+      <div className="item-product__product-block item-product__item">
         <div className="item-product__img-block">
           <img src={product.images[0]} alt="" />
         </div>
         <p className="item-product__name">{product.name}</p>
-      </td>
-      <td className="cart-table__row-item item-price">
+      </div>
+      <p className="item-product__price item-product__item">
         {product.price} {product.currency}
-      </td>
-      <td className="cart-table__row-item item-quantity">
-        <div className="item-quantity__block">
-          <button
-            type="button"
-            className="item-quantity__btn decrease-btn"
-            onClick={() => {
-              if (count > 1) {
-                setCount(count - 1);
-              }
-            }}
-          >
-            -
-          </button>
-          <p className="count-text">{count}</p>
-          <button
-            type="button"
-            className="item-quantity__btn increase-btn"
-            onClick={() => {
-              setCount(count + 1);
-            }}
-          >
-            +
-          </button>
-        </div>
-      </td>
-      <td className="cart-table__row-item item-subtotal">
-        {product.price * count} {product.currency}
-      </td>
-      <td className="cart-table__row-item item-delete">
-        <button type="button" className="item-delete__btn">
-          <img src="../images/delete-icon.svg" alt="Delete icon" />
+      </p>
+      <div className="item-product__quantity item-product__item">
+        <button
+          type="button"
+          className="quantity__btn decrease-btn"
+          onClick={() => {
+            if (count > 1) {
+              setCount(count - 1);
+            }
+          }}
+        >
+          -
         </button>
-      </td>
+        <p className="quantity__text">{count}</p>
+        <button
+          type="button"
+          className="quantity__btn increase-btn"
+          onClick={() => {
+            setCount(count + 1);
+          }}
+        >
+          +
+        </button>
+      </div>
+      <p className="item-product__subtotal item-product__item">
+        {product.price * count} {product.currency}
+      </p>
+      <button
+        type="button"
+        className="item-product__delete-btn item-product__item"
+      >
+        <img src="../images/delete-icon.svg" alt="Delete icon" />
+      </button>
     </>
   );
 }
