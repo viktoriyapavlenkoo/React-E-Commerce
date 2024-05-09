@@ -1,15 +1,16 @@
 .item-product__item {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .item-product__product-block {
-  flex: 0 1 35%;
-  display: flex;
+  /* flex: 0 1 35%; */
+  /* display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 2rem; */
 }
 
 .item-product__img-block {
+  flex: 0 0 auto;
   max-width: 120px;
   width: 100%;
 }
@@ -18,15 +19,35 @@
   width: 100%;
   object-fit: contain;
 }
+
+.item-product__text-block {
+  flex: 0 1 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+}
+.item-product__quantity-subtotal-block {
+  flex: 0 1 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.item-product__name {
+  flex: 0 1 20%;
+}
 .item-product__name,
 .item-product__price {
   color: var(--grey-color-text);
 }
 .item-product__price {
-  flex: 0 1 20%;
+  flex: 0 1 35%;
+  text-align: center;
 }
 .item-product__quantity {
-  flex: 0 1 15%;
+  flex: 0 1 30%;
   display: flex;
   justify-content: center;
 }
@@ -47,11 +68,10 @@
 .increase-btn {
 }
 .item-product__subtotal {
-  flex: 0 1 20%;
+  flex: 0 1 35%;
+  text-align: center;
 }
-.item-product__delete-btn {
-  flex: 0 1 10%;
-}
+
 
 /* media */
 
@@ -59,29 +79,64 @@
 }
 
 @media screen and (max-width: 992px) {
+
+.item-product__text-block {
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.item-product__quantity-subtotal-block {
+  width: 100%;
+  
+}
+.item-product__price,
+.item-product__subtotal
+ {
+  width: 100%;
+  text-align: start;
+}
 }
 
+
+
 @media screen and (max-width: 768px) {
-  .item-product {
+  /* .item-product {
     gap: 1rem;
   }
   .item-product__img-block {
     max-width: 70px;
-  }
+  } */
 }
 
 @media screen and (max-width: 650px) {
-  .item-product {
+  /* .item-product {
     flex-direction: column;
     gap: 0.5rem;
     align-items: flex-start;
-    /* display: table-cell; */
+    
   }
   .item-product__img-block {
     max-width: 50px;
-    /* display: none; */
-  }
+    
+  } */
+  .item-product__text-block {
+  /* justify-content: space-around; */
+
+}
+/* .item-product__quantity-subtotal-block {
+  flex-direction: column;
+} */
+  /* .item-product__price {
+  display: none;
+}
+.item-product__quantity-subtotal-block {
+  flex: 0 1 60%;
+
+} */
 }
 
 @media screen and (max-width: 480px) {
+  .item-product__price {
+  display: none;
+}
 }
