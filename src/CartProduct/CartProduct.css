@@ -1,0 +1,151 @@
+.item-product__item {
+}
+
+.item-product__product-block {
+  flex: 0 1 35%;
+}
+
+.item-product__img-block {
+  max-width: 120px;
+  width: 100%;
+}
+.item-product__img-block img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.item-product__text-block {
+  flex: 0 1 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+}
+.item-product__quantity-subtotal-block {
+  flex: 0 1 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.item-product__name {
+  flex: 0 1 20%;
+}
+.item-product__name,
+.item-product__price {
+  color: var(--grey-color-text);
+}
+.item-product__price {
+  flex: 0 1 35%;
+  text-align: center;
+}
+.item-product__quantity {
+  flex: 0 1 30%;
+  display: flex;
+  justify-content: center;
+}
+.quantity__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  
+  border: 1px solid var(--grey-color-text);;
+  border-radius: 5px;
+}
+.decrease-btn {
+}
+.quantity__text {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin: 0 0.5rem;
+  border: 1px solid var(--grey-color-text);;
+  border-radius: 5px; */
+  align-self: center;
+  margin: 0 0.8rem;
+}
+.increase-btn {
+}
+.item-product__subtotal {
+  flex: 0 1 35%;
+  text-align: center;
+}
+
+
+/* media */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+
+  .item-product__text-block {
+    flex: 0 1 100%;
+    
+}
+
+.item-product__text-block {
+  margin: 1rem 0 0.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.item-product__quantity-subtotal-block {
+  flex: 0 1 auto;
+  width: 60%;
+}
+.item-product__price,
+.item-product__quantity,
+.item-product__subtotal
+ {
+  flex: 0 1 100%;
+  text-align: left;
+  justify-content: start;
+  
+}
+
+.item-product__price {
+  
+}
+.item-product__delete-btn  {
+  margin-top: 1rem;
+align-self: start;
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .item-product__quantity-subtotal-block {
+
+}
+}
+
+@media screen and (max-width: 650px) {
+  .item-product__text-block {
+
+}
+.item-product__quantity-subtotal-block {
+
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+  .item-product__price {
+  display: none;
+
+}
+.item-product__img-block {
+  max-width: 110px;
+}
+
+}

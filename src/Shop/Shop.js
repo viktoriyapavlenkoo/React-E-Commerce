@@ -1,6 +1,6 @@
 import './Shop.css';
 import PageHero from '../PageHero/PageHero';
-import ShopProducts from '../ShopProducts/ShopProducts'
+import ShopProducts from '../ShopProducts/ShopProducts';
 import Benefits from '../Benefits/Benefits';
 
 function Shop(props) {

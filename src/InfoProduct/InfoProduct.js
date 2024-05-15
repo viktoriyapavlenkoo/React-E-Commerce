@@ -87,7 +87,7 @@ function InfoProduct(props) {
               <p className="count-text">{count}</p>
               <button
                 type="button"
-                className="count-btn decrease-btn"
+                className="count-btn increase-btn"
                 onClick={() => {
                   setCount(count + 1);
                 }}
