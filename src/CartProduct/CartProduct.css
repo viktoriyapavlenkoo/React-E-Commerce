@@ -1,16 +1,11 @@
 .item-product__item {
-  /* text-align: center; */
 }
 
 .item-product__product-block {
-  /* flex: 0 1 35%; */
-  /* display: flex;
-  align-items: center;
-  gap: 2rem; */
+  flex: 0 1 35%;
 }
 
 .item-product__img-block {
-  flex: 0 0 auto;
   max-width: 120px;
   width: 100%;
 }
@@ -52,18 +47,28 @@
   justify-content: center;
 }
 .quantity__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  
+  border: 1px solid var(--grey-color-text);;
+  border-radius: 5px;
 }
 .decrease-btn {
 }
 .quantity__text {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   width: 32px;
   height: 32px;
   margin: 0 0.5rem;
   border: 1px solid var(--grey-color-text);;
-  border-radius: 5px;
+  border-radius: 5px; */
+  align-self: center;
+  margin: 0 0.8rem;
 }
 .increase-btn {
 }
@@ -80,63 +85,67 @@
 
 @media screen and (max-width: 992px) {
 
+  .item-product__text-block {
+    flex: 0 1 100%;
+    
+}
+
 .item-product__text-block {
+  margin: 1rem 0 0.5rem;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
 
 }
 .item-product__quantity-subtotal-block {
-  width: 100%;
-  
+  flex: 0 1 auto;
+  width: 60%;
 }
 .item-product__price,
+.item-product__quantity,
 .item-product__subtotal
  {
-  width: 100%;
-  text-align: start;
+  flex: 0 1 100%;
+  text-align: left;
+  justify-content: start;
+  
+}
+
+.item-product__price {
+  
+}
+.item-product__delete-btn  {
+  margin-top: 1rem;
+align-self: start;
 }
 }
 
 
 
 @media screen and (max-width: 768px) {
-  /* .item-product {
-    gap: 1rem;
-  }
-  .item-product__img-block {
-    max-width: 70px;
-  } */
+  .item-product__quantity-subtotal-block {
+
+}
 }
 
 @media screen and (max-width: 650px) {
-  /* .item-product {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: flex-start;
-    
-  }
-  .item-product__img-block {
-    max-width: 50px;
-    
-  } */
   .item-product__text-block {
-  /* justify-content: space-around; */
 
-}
-/* .item-product__quantity-subtotal-block {
-  flex-direction: column;
-} */
-  /* .item-product__price {
-  display: none;
 }
 .item-product__quantity-subtotal-block {
-  flex: 0 1 60%;
 
-} */
+  width: 100%;
+}
 }
 
 @media screen and (max-width: 480px) {
+
   .item-product__price {
   display: none;
+
 }
+.item-product__img-block {
+  max-width: 110px;
+}
+
 }
