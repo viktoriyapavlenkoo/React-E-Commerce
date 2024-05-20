@@ -1,3 +1,6 @@
 {
-    "ecsstractor_tsx_port.attributes": "className"
+  "ecsstractor_tsx_port.attributes": "className",
+  "powermode.enabled": true,
+  "powermode.presets": "particles",
+  "powermode.shake.enabled": false
 }

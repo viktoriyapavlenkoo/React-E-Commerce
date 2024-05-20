@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 
-function Footer() {
+function Footer(props) {
+
+  
+
   const [isOpenLinks, setIsOpenLinks] = useState(false);
   const [isOpenHelp, setIsOpenHelp] = useState(false);
   function toggleMenuLinks() {
@@ -12,6 +15,10 @@ function Footer() {
   }
   function toggleMenuHelp() {
     setIsOpenHelp(!isOpenHelp);
+  }
+  const pathname = props.pathname;
+  if (pathname === "/login") {
+    return null;
   }
   return (
    <footer className='footer page-content'>

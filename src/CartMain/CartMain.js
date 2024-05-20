@@ -10,14 +10,12 @@ function CartMain() {
   cart.push(productsData[1]);
   cart.push(productsData[18]);
   cart.push(productsData[14]);
-  console.log(cart);
   return (
     <section className="section cart-main">
       <div className="container cart-main__container">
         <div className="cart-main__list-block">
           <ul className="cart-main__list">
             {cart.map((product) => {
-              console.log(product);
               return (
                 <li key={product.id} className="cart-main__item-product">
                   <CartProduct product={product} cart={cart} />

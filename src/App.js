@@ -13,13 +13,13 @@ import PrivacyPolicies from "./PrivacyPolicies/PrivacyPolicies";
 
 import Product from "./Product/Product";
 import Cart from "./Cart/Cart";
-//import categoryJson from './json/categoryData.json';
+import Login from "./Login/Login";
 
 function App() {
   return (
     <div className="App">
       <div className="main">
-        <Header />
+        <Header pathname={window.location.pathname} />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
@@ -30,17 +30,15 @@ function App() {
           <Route path="/returns" element={<Returns />} />
           <Route path="/privacy-policies" element={<PrivacyPolicies />} />
           <Route path="/*" element={<Error />} />
-
           {/*product*/}
-
           <Route path="/product" element={<Product />} />
-
-          {/*product*/}
-
+          {/*cart*/}
           <Route path="/cart" element={<Cart />} />
+          {/*login*/}
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
-      <Footer />
+      <Footer pathname={window.location.pathname} />
     </div>
   );
 }
