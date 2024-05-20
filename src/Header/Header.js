@@ -5,12 +5,16 @@ import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import React from 'react';
 
 
-function Header() {
+function Header(props) {
+  const pathname = props.pathname;
+  if (pathname === '/login') {
+    return null;
+  }
   return (
   <header className='header'> 
     <div className="container header__container">
      <nav className='nav'>
-      <a href="/" className='logo header__logo'><img src="../images/header/logo.svg" alt="" />Furniro</a>
+      <a href="/" className='logo header__logo'><img src="../images/logo.svg" alt="Logo" />Furniro</a>
       <Menu props={'header__menu'}/>
      </nav>
      <ButtonsList props={'header__btns-list'}/>
