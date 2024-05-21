@@ -20,7 +20,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 1;
-  
+
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -35,23 +35,13 @@
   line-height: 40px;
 }
 .login-form__label {
-    margin-bottom: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 .login-form__input {
-  font-weight: 400;
   margin-bottom: 1rem;
-  padding: 0.8rem;
-  border: 1px solid var(--grey-color-text);;
-  border-radius: 8px;
-}
-.login-form__input::placeholder {
-    color: var(--grey-color-text);
 }
 .login-form__btn {
-    margin: 0.5rem 0 1.5rem;
-    padding: 0.8rem;
-    border-radius: 8px;
-    font-weight: 500;
+  margin: 0.5rem 0 1.5rem;
 }
 
 .login-form__link {

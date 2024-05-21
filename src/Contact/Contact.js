@@ -1,10 +1,16 @@
 import './Contact.css';
 
+import PageHero from "../PageHero/PageHero";
+import Benefits from "../Benefits/Benefits";
+import ContactMain from '../ContactMain/ContactMain';
+
 function Contact() {
   return (
-   <div className='contact page-content'> 
-    <h1>Contact</h1>
-   </div>
+    <div className="contact page-content">
+      <PageHero page="contact" />
+      <ContactMain/>
+      <Benefits />
+    </div>
   );
 }
 

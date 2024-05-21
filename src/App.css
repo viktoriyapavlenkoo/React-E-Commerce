@@ -33,7 +33,9 @@ button {
   cursor: pointer;
 }
 input,
-input::placeholder {
+input::placeholder,
+textarea,
+textarea::placeholder {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
@@ -145,6 +147,27 @@ body {
   font-size: var(--middle-text);
   font-weight: 600;
 }
+
+.form__input,
+.form__textarea {
+  font-weight: 400;
+  
+  padding: 0.8rem;
+  border: 1px solid var(--grey-color-text);
+  border-radius: 8px;
+}
+.form__input::placeholder,
+.form__textarea::placeholder {
+    color: var(--grey-color-text);
+}
+.form__btn {
+    
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+
 /* media */
 
 @media screen and (max-width: 1200px) {
