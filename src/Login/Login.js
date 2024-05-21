@@ -3,6 +3,9 @@ import './Login.css';
 
 
 function Login() {
+  function forgotAlert() {
+    alert('It`s your problem!')
+  }
   return (
     <div className="login">
       <div className="container login__container">
@@ -36,7 +39,7 @@ function Login() {
           <button type="submit" className="login-form__btn btn--dark">
             Sing in
           </button>
-          <a href="#" className="login-form__link">
+          <a href="#" className="login-form__link" onClick={forgotAlert}>
             Forgot password?
           </a>
         </form>
