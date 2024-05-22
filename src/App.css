@@ -163,9 +163,7 @@ font-size: var(--small-text);
 }
 .form__btn {
     
-    padding: 1rem;
-    border-radius: 8px;
-    font-weight: 500;
+    
 }
 
 
