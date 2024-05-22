@@ -32,6 +32,7 @@ function ContactForm() {
         id="subject"
         placeholder="This is an optional"
         className="contact-form__textarea form__textarea"
+        rows="1"
       ></textarea>
       <label htmlFor="message" className="contact-form__label form__label">
         Message
@@ -41,6 +42,7 @@ function ContactForm() {
         id="message"
         placeholder="Hi! i’d like to ask about"
         className="contact-form__textarea form__textarea"
+        rows="3"
       ></textarea>
       <button type="submit" className="contact-form__btn form__btn btn--dark">
         Submit

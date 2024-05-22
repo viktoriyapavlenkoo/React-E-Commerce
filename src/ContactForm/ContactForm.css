@@ -1,3 +1,29 @@
+.contact-form {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    
+}
+.contact-form__label {
+    margin-bottom: 0.8rem;
+    
+}
+.contact-form__input {
+    margin-bottom: 1.5rem;
+    
+}
+.contact-form__textarea {
+    margin-bottom: 1.5rem;
+     max-width: 500px;
+    
+}
+.contact-form__btn {
+    margin-top: 1rem;
+    max-width: 200px;
+}
+
 /* media */
 
 @media screen and (max-width: 1200px) {
@@ -13,6 +39,11 @@
 }
 
 @media screen and (max-width: 650px) {
+    .contact-form,
+    .contact-form__textarea {
+    max-width: 100%;
+    
+}
     
 }
 

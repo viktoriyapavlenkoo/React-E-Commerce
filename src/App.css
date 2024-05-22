@@ -147,12 +147,13 @@ body {
   font-size: var(--middle-text);
   font-weight: 600;
 }
-
+.form {
+font-size: var(--small-text);
+}
 .form__input,
 .form__textarea {
   font-weight: 400;
-  
-  padding: 0.8rem;
+  padding: 1rem;
   border: 1px solid var(--grey-color-text);
   border-radius: 8px;
 }
@@ -162,7 +163,7 @@ body {
 }
 .form__btn {
     
-    padding: 0.8rem;
+    padding: 1rem;
     border-radius: 8px;
     font-weight: 500;
 }

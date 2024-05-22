@@ -26,8 +26,8 @@ function ContactAddress() {
       </div>
       <div className="address__working-block address__item">
         <p className="working-block__title address__title">Working Time</p>
-        <p className="phone-block__text">Monday-Friday: 9:00 - 22:00</p>
-        <p className="phone-block__text">Saturday-Sunday: 9:00 - 21:00</p>
+        <p className="working-block__text">Monday-Friday: 9:00 - 22:00</p>
+        <p className="working-block__text">Saturday-Sunday: 9:00 - 21:00</p>
       </div>
     </address>
   );
