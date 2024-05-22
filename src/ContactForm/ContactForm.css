@@ -1,0 +1,56 @@
+.contact-form {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    
+}
+.contact-form__label {
+    margin-bottom: 0.8rem;
+    
+}
+.contact-form__input {
+    margin-bottom: 1.5rem;
+    
+}
+.contact-form__textarea {
+    margin-bottom: 1.5rem;
+     max-width: 500px;
+    
+}
+.contact-form__btn {
+    padding: 1rem;
+    
+    font-weight: 500;
+    margin-top: 1rem;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+/* media */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px)  {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+    .contact-form,
+    .contact-form__textarea {
+    max-width: 100%;
+    
+}
+    
+}
+
+@media screen and (max-width: 480px) {
+
+}

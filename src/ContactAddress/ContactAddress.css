@@ -1,0 +1,82 @@
+.contact-main__address {
+    flex: 0 1 auto;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.address__location-block {
+
+}
+.address__item {
+    max-width: 300px;
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 2.5rem;
+    font-size: var(--small-text);
+
+}
+.address__item::before {
+    position: absolute;
+    content: url(../../public/images/map-icon.svg);
+    top: 0;
+    left: 0;
+}
+.location-block__title {
+
+} 
+.address__title {
+    font-size: var(--middle-text);
+    font-weight: 500;
+} 
+.location-block__link {
+
+}
+.address__phone-block {
+
+}
+.address__phone-block::before {
+    content: url(../../public/images/phone-icon.svg);
+} 
+
+.phone-block__title {
+
+}
+.phone-block__text {
+
+}
+.phone-block__link {
+    margin-left: 5px;
+}
+.address__working-block {
+
+}
+.address__working-block::before {
+    content: url(../../public/images/watch-icon.svg);
+} 
+.working-block__title {
+
+}
+.working-block__text {
+
+}
+/* media */ 
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px)  {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+
+}
