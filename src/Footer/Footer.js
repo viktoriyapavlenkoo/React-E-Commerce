@@ -5,9 +5,6 @@ import { useState } from 'react';
 
 
 function Footer(props) {
-
-  
-
   const [isOpenLinks, setIsOpenLinks] = useState(false);
   const [isOpenHelp, setIsOpenHelp] = useState(false);
   function toggleMenuLinks() {
@@ -17,9 +14,10 @@ function Footer(props) {
     setIsOpenHelp(!isOpenHelp);
   }
   const pathname = props.pathname;
-  if (pathname === "/login") {
+  if (pathname === "/login" || pathname.startsWith("/admin")) {
     return null;
   }
+  
   return (
    <footer className='footer page-content'>
     <div className="container footer__container">

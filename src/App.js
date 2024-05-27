@@ -15,6 +15,12 @@ import Product from "./Product/Product";
 import Cart from "./Cart/Cart";
 import Login from "./Login/Login";
 
+// import AdminHeader from "./AdminHeader/AdminHeader";
+import AdminCategory from "./AdminCategory/AdminCategory";
+import AdminProduct from "./AdminProduct/AdminProduct";
+import AdminUpload from "./AdminUpload/AdminUpload";
+import AdminSettings from "./AdminSettings/AdminSettings";
+
 function App() {
   return (
     <div className="App">
@@ -36,6 +42,15 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           {/*login*/}
           <Route path="/login" element={<Login />} />
+
+          {/*admin panel*/}
+
+         
+
+          <Route path="/admin-category" element={<AdminCategory />} />
+          <Route path="/admin-product" element={<AdminProduct />} />
+          <Route path="/admin-upload" element={<AdminUpload />} />
+          <Route path="/admin-settings" element={<AdminSettings />} />
         </Routes>
       </div>
       <Footer pathname={window.location.pathname} />
