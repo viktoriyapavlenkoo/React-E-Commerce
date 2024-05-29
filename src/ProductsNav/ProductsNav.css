@@ -38,7 +38,10 @@
     
 }
 .filter-item__btn {
-    margin-right: 1em;
+    display: flex;
+    align-items:center;
+    font-weight: 500;
+    gap: 1rem;
 }
 .filter-item__img {
     display: flex;

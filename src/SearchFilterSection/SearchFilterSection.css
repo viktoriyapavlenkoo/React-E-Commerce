@@ -1,0 +1,38 @@
+.search-filter-section {
+    margin: 0;
+}
+.search-filter-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-heigth);
+    gap: 2rem;
+}
+.search-filter-section__input {
+        flex: 0 1 auto;
+      padding: 0.5rem;
+      
+}
+.search-filter-section__btn {
+
+}
+
+/* media */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 480px) {
+    .search-filter-section__input {
+        max-width: 70%;    
+    }
+}

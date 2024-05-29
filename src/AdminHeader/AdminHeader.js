@@ -2,7 +2,6 @@ import "./AdminHeader.css";
 
 
 import React from "react";
-import { Link } from "react-router-dom";
 import AdminMenu from "../AdminMenu/AdminMenu";
 import AdminBurgerMenu from "../AdminBurgerMenu/AdminBurgerMenu";
 

@@ -1,0 +1,33 @@
+.admin-page-hero {
+    margin: 0;
+    background-color: var(--second-background-color);
+}
+.admin-page-hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-heigth);
+    gap: 2ren;
+}
+.admin-page-hero__title {
+    text-align: left;
+}
+.admin-page-hero__btn {
+  
+}
+/* media */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 480px) {
+}
