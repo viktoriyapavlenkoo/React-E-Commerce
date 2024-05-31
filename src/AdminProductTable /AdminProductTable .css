@@ -1,0 +1,79 @@
+.admin-product-table {
+
+}
+.admin-product-table__container {
+
+}
+.table  {
+
+}
+.admin-table  {
+    width: 100%;
+}
+.admin-product-table__table {
+
+}
+.admin-table__thead {
+
+}
+.admin-table__thead-row  {
+
+}
+.admin-table__row {
+
+}
+.admin-table__thead-cell  {
+text-align: start;
+}
+.admin-table__cell {
+
+}
+.admin-table__tbody {
+
+}
+.admin-table__tbody-row {
+
+}
+.admin-table__tbody-cell {
+
+}
+.cell__name-articul {
+
+}
+.name-text {
+
+}
+.artitul-text {
+
+}
+.cell__quantity {
+
+}
+.cell__category  {
+
+}
+.cell__price {
+
+}
+.cell__status {
+
+}
+/* media */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 480px) {
+    .search-filter-section__input {
+        max-width: 70%;    
+    }
+}

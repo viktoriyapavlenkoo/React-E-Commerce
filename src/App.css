@@ -169,6 +169,82 @@ font-size: var(--small-text);
     
 }
 
+/* admin pages */
+.admin-page {
+    height: calc(100vh - var(--header-heigth));
+    background-color: var(--second-background-color);
+}
+
+.admin-main {
+  position: relative;
+  top: var(--header-heigth);
+  height: calc(100% - var(--header-heigth) - 20px);
+}
+.admin-main__container {
+  height: 100%;
+}
+.admin-main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--first-background-color);
+  height: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+
+}
+
+/* admin table */
+.search-table-content{
+  flex-shrink: 0;
+}
+
+.admin-table-block {
+   margin: 0;
+  
+}
+.admin-table-block__container {
+  padding: 0;
+  overflow-x: auto;
+  
+}
+.admin-table {
+  border-collapse: collapse;
+    
+}
+
+.dmin-table__thead {
+    
+}
+.admin-table__thead-row  {
+
+    
+}
+.admin-table__row {
+  vertical-align: top;
+
+    
+}
+.admin-table__row {
+  
+}
+.admin-table__thead-cell  {
+  font-weight: 600;
+    
+}
+.admin-table__cell {
+    padding: 0.5rem 20px;
+    
+}
+.admin-table__tbody tr:nth-child(odd) {
+  background: var(--third-background-color);
+}
+.admin-table__tbody-row {
+    
+}
+.admin-table__tbody-cell {
+    
+}
 
 /* media */
 

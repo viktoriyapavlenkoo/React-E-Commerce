@@ -1,5 +1,8 @@
 .admin-page-hero {
     margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
     background-color: var(--second-background-color);
 }
 .admin-page-hero__container {
@@ -13,7 +16,7 @@
     text-align: left;
 }
 .admin-page-hero__btn {
-  
+  width: 11rem;
 }
 /* media */
 

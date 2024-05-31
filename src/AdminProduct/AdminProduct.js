@@ -4,9 +4,9 @@ import AdminProductMain from "../AdminProductMain/AdminProductMain";
 
 function AdminProduct() {
   return (
-    <div className="admin-product page-content">
+    <div className="admin-product page-content admin-page">
       <AdminPageHero pageName="Product" btnText="Add product" />
-      <AdminProductMain/>
+      <AdminProductMain />
     </div>
   );
 }

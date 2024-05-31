@@ -1,3 +1,6 @@
+.quantity-pages-section {
+    margin: 0;
+}
 
 /* media */
 
@@ -14,4 +17,7 @@
 }
 
 @media screen and (max-width: 480px) {
+    .search-filter-section__input {
+        max-width: 70%;    
+    }
 }
