@@ -178,7 +178,9 @@ font-size: var(--small-text);
 .admin-main {
   position: relative;
   top: var(--header-heigth);
-  height: calc(100% - var(--header-heigth) - 20px);
+  height: 100%;
+  max-height: calc(100% - var(--header-heigth) - 20px); 
+  /* overflow: hidden;  */
 }
 .admin-main__container {
   height: 100%;
@@ -201,22 +203,29 @@ font-size: var(--small-text);
 
 .admin-table-block {
    margin: 0;
+
   
 }
 .admin-table-block__container {
   padding: 0;
-  overflow-x: auto;
-  
+max-height: 65vh;
+height: 100%;
+    overflow-x: auto;  
 }
 .admin-table {
   border-collapse: collapse;
-    
+  width: 100%;
+
 }
 
-.dmin-table__thead {
-    
+.admin-table__thead {
+    position: sticky;
+    top: 0;
+    background-color: var(--first-background-color);
 }
 .admin-table__thead-row  {
+  
+
 
     
 }
