@@ -46,6 +46,12 @@ text-align: start;
 .artitul-text {
 
 }
+.cell-image__block {
+    width: 80px;
+}
+.cell-image__block img {
+    width: 100%;
+}
 .cell__quantity {
 
 }
